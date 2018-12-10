@@ -94,8 +94,6 @@
 				fixed4 tint = tex2D(_MainTex, i.uv);
 				col *= tint;
 
-
-
 				return col;
 			}
 			ENDCG
