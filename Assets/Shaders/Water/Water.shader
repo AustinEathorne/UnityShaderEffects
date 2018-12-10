@@ -70,8 +70,7 @@
 
 			float3 main = (tex2D(_MainTex, IN.uv_MainTex + 
 				float2(_ScrollX, _ScrollY))).rgb;
-			float3 sec = (tex2D(_SecondaryTex, IN.uv_MainTex + 
-				float2(_ScrollX * _SecondarySpeedMul, _ScrollY * _SecondarySpeedMul))).rgb;
+			float3 sec = (tex2D(_SecondaryTex, IN.uv_MainTex + float2(_ScrollX * _SecondarySpeedMul, _ScrollY * _SecondarySpeedMul))).rgb;
 
 			o.Albedo = (((main + sec) * 0.5) * IN.vertColor) * 0.5;
 		}

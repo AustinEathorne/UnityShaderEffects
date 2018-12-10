@@ -62,7 +62,7 @@
 				// Get vertex from world space to clip space
 				o.vertex = UnityObjectToClipPos(v.vertex);
 
-				// Based on screen scape get uvs for grab texture
+				// Based on screen space get uvs for grab texture
 				#if UNITY_UV_STARTS_AT_TOP
 				float scale = -1.0;
 				#else
