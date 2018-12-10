@@ -1,4 +1,4 @@
-﻿Shader "StencilBox/StandardStencil" 
+﻿Shader "Custom/StandardStencil" 
 {
 	Properties
 	{

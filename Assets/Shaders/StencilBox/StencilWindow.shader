@@ -1,4 +1,4 @@
-﻿Shader "StencilBox/StencilWindow"
+﻿Shader "Custom/StencilWindow"
 {
 	Properties
 	{

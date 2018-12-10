@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Hologram.unity
+    guid: c2ddeeacfff13a54cb41c03cd9a07a68
+  - enabled: 1
     path: Assets/Scenes/Glass.unity
     guid: ab1310f5c3a38e840a1b360da9029eba
   - enabled: 1
